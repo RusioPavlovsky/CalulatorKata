@@ -32,7 +32,7 @@ public class Main {
         if (boolens.isRoman(exp) && result<=0){
             throw new NumberFormatException("Результат для римских чисел не может быть меньше или равен 0");}
         if (boolens.isRoman(exp)){
-            System.out.println(converter.arabianToRoman(result));}
+            System.out.println(converter.arabianToRoman2(result));}
         else System.out.println(result);
     }
 }
